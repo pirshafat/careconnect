@@ -6,4 +6,5 @@ services:
     startCommand: "python app.py"
     envVars:
       - key: OPENAI_API_KEY
-        value: your-openai-api-key-here
+        value: ${OPENAI_API_KEY}
+
